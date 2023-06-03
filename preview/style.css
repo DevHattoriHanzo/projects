@@ -1,0 +1,11 @@
+.side-by-side{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.side-by-side img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
