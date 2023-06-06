@@ -1,0 +1,62 @@
+.list{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.list p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 0;
+    max-height: 50px;
+    transition: .5s;
+}
+
+.list p:nth-child(n+4){
+    max-height: 0px;
+    overflow: none;
+    padding: 0px 0px;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.list__open p:nth-child(n+4){
+    max-height: 50px;
+    overflow: none;
+    padding: 10px 0px;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+
+
+.list p:hover{
+    color: #97f049;
+    cursor: pointer;
+    transform: 0;
+}
+
+.list-fixed{
+    position: sticky;
+    top: 0px;
+    background-color: #252525;
+    transform: translateY(-20px);
+    padding-top: 20px;
+}
+
+
+.list-stars{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.list-next:hover{
+    color: #97f049;
+    cursor: pointer;
+}
+
+.list__off p{
+    padding: 0px 0px;
+    max-height: 0px;
+    overflow: hidden;
+    opacity: 0px;
+    transition: .5s;
+}

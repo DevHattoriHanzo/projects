@@ -1,0 +1,36 @@
+.container{
+    /* width: 100%;
+    display: grid;
+    grid-template-columns: 250px 50vw;
+    transition: .5s; */
+    display: flex;
+}
+
+/* .container__off .window-right{
+    width: 100%;
+} */
+
+.window-right{
+    width: 100%;
+}
+
+.container__off .window-right{
+    width: 100%;
+    padding: 0px;
+}
+
+.window-left{
+    width: 350px;
+}
+
+.container__off .window-left{
+    width: 0px;
+    padding: 0px ;
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.container__off .menu{
+    /* transform: translateX(-250px); */
+    /* transition: .5s; */
+}

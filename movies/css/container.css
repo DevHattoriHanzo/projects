@@ -1,0 +1,8 @@
+.container{
+    display: flex;
+}
+
+.container__off .menu{
+    width: 0px;
+    padding: 0px;
+}

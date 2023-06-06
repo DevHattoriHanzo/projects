@@ -1,0 +1,93 @@
+.menu{
+    height: 100vh;
+    /* width: 350px; */
+    display: inline-block;
+    background-color: #252525;
+    padding: 2em;
+    position: sticky;
+    top: 0px;
+    border-right: #303030 solid 1px;
+    color: white;
+    z-index: 3;
+    overflow-y: auto;
+    transition: 0.5s;
+
+    width: 250px;
+
+}
+
+
+
+.menu::-webkit-scrollbar{
+    width: 0px;
+}
+
+.menu h3{
+    padding: 10px 0;
+    font-family: 'Outfit';
+    border-bottom: dashed 1px #303030;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.menu-search * {
+    transition: 0.5s;
+}
+
+.menu-search{
+    /* background-color: #252525; */
+    color: white;
+    padding: 10px;
+    outline: none;
+    padding: 10px 20px;
+    border: none;
+    color: #EEE;
+    border-radius: 50px;
+    width: 150px;
+    transition: 0.2s;
+    background: #212121 url("../icons/search.svg") no-repeat 10px center;
+    padding-left: 40px;
+}
+.menu-search:hover{
+    width: 170px;
+    background-color: #191919;  
+    transition: 0.2s; 
+    padding: 10px 30px;
+    /* background-position: -0px; */
+    padding-left: 40px;
+    
+}
+.menu-search:focus, .menu-search:valid{
+    width: 190px;
+    background-color: #181818; 
+    color: #97f049;
+    transition: 0.2s;  
+    padding: 10px 30px;
+    background-position: -20px;
+    padding-left: 20px;
+}
+
+.icon_menu_open{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 1em;
+    cursor: pointer;
+    /* background-color: red; */
+    z-index: 1;
+    width: 60px;
+}
+
+.icon_menu_close{
+    /* padding: 10px; */
+    /* border-radius: 100%; */
+    /* background-color: red; */
+    text-align: right;
+    float: right;
+    width: min-content;
+    margin-left: auto;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    cursor: pointer;
+}
