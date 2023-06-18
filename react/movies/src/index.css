@@ -1,0 +1,21 @@
+:root{
+    --c1: #272727;
+    --c2: #252525;
+    --c3: #303030;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+.bg-c1{background-color: var(--c1)}
+.bg-c2{background-color: var(--c2)}
+
+body{
+    background-color: var(--c1)
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
