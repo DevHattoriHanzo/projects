@@ -46,7 +46,6 @@ function App(){
   let [quant, set_quant] = useState(20)
   
   let [page, set_page] = useState(0)
-
   
   useEffect(()=>{
     fetch("https://devhattorihanzo.github.io/datas/movies/movies.json")
