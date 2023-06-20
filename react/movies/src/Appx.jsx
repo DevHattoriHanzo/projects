@@ -8,10 +8,6 @@ function App(){
   
   return (
     <UserContext.Provider value={user}>
-      <Menu2 />
-      <Menu2 />
-      <Menu2 />
-      <Menu2 />
     </UserContext.Provider>
   );
 }

@@ -8,10 +8,10 @@ function Menu(){
   
   return(
     <main>
-      <section className="w-64 h-screen overflow-y-scroll sticky top-0 p-5 border-r border-r-[#303030] bg-[#252525] grid items-center">
+      <section className="w-64 h-screen overflow-y-scroll sticky top-0 p-5 border-r border-r-[#303030] bg-[#252525] flex-col flex gap-7">
         
         <section>
-          <input id="inp" placeholder="Pesquisar" onChange={search_input} className="rounded-full transition bg-[#202020] hover:bg-[#191919] focus:bg-[#181818] text-white p-2 px-4 outline-none w-full "></input>
+          <input id="inp" placeholder="Pesquisar" onChange={search_input} className="rounded-full transition bg-[#202020] hover:bg-[#191919] focus:bg-[#181818] text-white p-2 px-4 outline-none w-full"></input>
           <MenuList title="Categories" search_by_genre={search_by_genre}  categories_list={categories_list} />
         </section>
 

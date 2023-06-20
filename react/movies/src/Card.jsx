@@ -9,7 +9,7 @@ function Card({poster_path, title, release_date, vote_average}){
     let obj = movie_list_full.find(e=>e.poster_path == poster_path)
     set_is_dialog_active(true)
     set_dialog_item(obj)
-  } 
+  }
 
   return (
     <div onClick={handleDialog} className="transition rounded text-white drop-shadow-xl relative bg-black group cursor-pointer overflow-hidden " >
